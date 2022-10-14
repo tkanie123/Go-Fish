@@ -47,9 +47,9 @@ public class Player
 	}
 
 	public String toString()
-  {
-    return "You say hi";
-  }
+	{
+	        return "You say hi";
+	}
 
 	public boolean equals(Player play) {
 		return playerName.equals(play.playerName);
